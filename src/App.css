@@ -36,3 +36,106 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* .BlogCard{
+    background-color: yellow;
+    margin:16px;
+    padding:16px;
+    box-shadow:5px 10px #888888;
+    float: left;
+    width: 26%;
+} */
+
+body {
+    margin:0 auto;
+    padding:0 auto;
+}
+
+
+.Vision{
+    float: left;
+    width: 100%;
+    padding: 0em 0em 2em 0em;
+    
+    background: #CFD9D8;
+}
+.VisionBoxCenter {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
+}
+.VisionHeading {
+    text-align: center;
+    color: #42443F;
+    padding: 0;
+}
+.VisionHeading h1 {
+    margin: 0.3em 0em 0.3em 0em;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+.VisionHeading h4 {
+    margin: 0em 0em 0em 0em;
+    font-size: 30px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: uppercase;
+
+}
+.VisionBox {
+    float: left;
+    width: 25%;
+    border: 1px solid transparent;
+    margin: 0em 0em 2.5em 5em;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow:0px 1px 3px #888888;
+
+}
+.VisionBoxHead {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #F56059;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0em;
+    padding: 0em;
+}
+.VisionBoxHead h5 {
+    font-size: 27px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 27px;
+    color: #42443F;
+    text-transform: uppercase;
+    margin: 0em;
+    padding: 0.5em;
+}
+.VisionBoxList  {
+    float: left;
+    width: 100%;
+    margin: 1em 0em;
+    padding: 0em;
+}
+.VisionBoxList ul {
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+    color: #42443F; 
+}
+.VisionBoxList li {
+  text-align: left;
+}
